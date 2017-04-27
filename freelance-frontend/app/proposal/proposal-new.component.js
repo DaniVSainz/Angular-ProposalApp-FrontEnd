@@ -9,8 +9,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var proposal_1 = require('./proposal');
 var ProposalNewComponent = (function () {
     function ProposalNewComponent() {
+        this.proposal = new proposal_1.Proposal;
     }
     ProposalNewComponent = __decorate([
         core_1.Component({
