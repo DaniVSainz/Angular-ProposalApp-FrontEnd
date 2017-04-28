@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Proposal } from './proposal';
 
@@ -18,7 +18,9 @@ export class ProposalShowComponent implements OnInit {
 
   ngOnInit(): void{
     this.routeId = this.route.params.subscribe(
-      this.id = +params['id']
+      params => {
+        this.id = +params['id'];
+      }
     )
   }
 }

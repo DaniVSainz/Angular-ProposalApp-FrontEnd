@@ -15,7 +15,10 @@ var ProposalShowComponent = (function () {
         this.route = route;
     }
     ProposalShowComponent.prototype.ngOnInit = function () {
-        this.routeId = this.route.params.subscribe(this.id = +params['id']);
+        var _this = this;
+        this.routeId = this.route.params.subscribe(function (params) {
+            _this.id = +params['id'];
+        });
     };
     ProposalShowComponent = __decorate([
         core_1.Component({
