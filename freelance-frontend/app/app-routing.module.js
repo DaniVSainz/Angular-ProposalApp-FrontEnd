@@ -21,7 +21,7 @@ var routes = [
     { path: 'documents', component: documents_component_1.DocumentsComponent },
     { path: 'proposal', component: proposal_list_component_1.ProposalListComponent },
     { path: 'proposal/new', component: proposal_new_component_1.ProposalNewComponent },
-    { path: 'proposal/show', component: proposal_show_component_1.ProposalShowComponent },
+    { path: 'proposal/:id', component: proposal_show_component_1.ProposalShowComponent },
 ];
 var AppRoutingModule = (function () {
     function AppRoutingModule() {
