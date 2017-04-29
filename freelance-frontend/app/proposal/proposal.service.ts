@@ -18,8 +18,8 @@ export class ProposalService {
 										.catch(this.handleError);
 	}
 
-  getProposal(): Observable<Proposal[]>{
-    return this.http.get(this.proposalsUrl + "/" id + '.json')
+  getProposal(id: number){
+    return this.http.get(this.proposalsUrl + "/" + id + '.json');
   }
 
 	private handleError (error: Response | any) {
