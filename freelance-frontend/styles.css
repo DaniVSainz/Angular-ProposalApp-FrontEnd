@@ -1,14 +1,18 @@
 body {
-    background-color: #252830;
+  background-color: #252830;
 }
 
 ul {
-    display: flex !important;
-    flex-direction: row !important;
+  display: flex !important;
+  flex-direction: row !important;
 }
 
 li {
-    display: flex;
-    flex-direction: row;
-    padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 20px;
+}
+
+.headline {
+  color: white;
 }
