@@ -10,6 +10,7 @@ import { DocumentsComponent } from './documents/documents.component';
 import { ProposalListComponent } from './proposal/proposal-list.component';
 import { ProposalNewComponent } from './proposal/proposal-new.component';
 import { ProposalShowComponent } from './proposal/proposal-show.component';
+import { DocumentService } from './documents/document.service';
 
 @NgModule({
 	imports: [
@@ -24,7 +25,10 @@ import { ProposalShowComponent } from './proposal/proposal-show.component';
 		DocumentsComponent,
 		ProposalListComponent,
 		ProposalNewComponent,
-		ProposalShowComponent
+		ProposalShowComponent,
+	],
+	providers: [
+		DocumentService
 	],
 	bootstrap: [
 		AppComponent
