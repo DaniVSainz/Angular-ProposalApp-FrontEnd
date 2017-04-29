@@ -22,6 +22,9 @@ let ProposalService = class ProposalService {
             .map((response) => response.json())
             .catch(this.handleError);
     }
+    getProposal(id) {
+        return this.http.get(this.proposalsUrl + "/" + id + '.json');
+    }
     handleError(error) {
         // In a real world app, we might use a remote logging infrastructure
         let errMsg;
