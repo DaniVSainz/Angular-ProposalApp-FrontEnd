@@ -18,6 +18,7 @@ ProposalNewComponent = __decorate([
         moduleId: module.id,
         selector: 'proposal-new',
         templateUrl: 'proposal-new.component.html',
+        styleUrls: ['proposal-new.component.css']
     })
 ], ProposalNewComponent);
 exports.ProposalNewComponent = ProposalNewComponent;
