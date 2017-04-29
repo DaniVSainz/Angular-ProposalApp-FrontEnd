@@ -13,7 +13,8 @@ AppComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
         selector: 'app',
-        templateUrl: 'app.component.html'
+        templateUrl: 'app.component.html',
+        stylesUrl: ['app.component.css']
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;
