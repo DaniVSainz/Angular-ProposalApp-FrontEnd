@@ -16,21 +16,21 @@ let DocumentsComponent = class DocumentsComponent {
                 description: "ADASDasdasd asd ",
                 file_url: 'http://google.com',
                 updated_at: 'asdasd',
-                image_url: 'http://google.com',
+                image_url: 'https://assets.entrepreneur.com/content/16x9/822/20151117183622-small-business-woman-desk-office.jpeg',
             },
             {
                 title: "My First Doc",
                 description: "ADASDasdasd asd ",
                 file_url: 'http://google.com',
                 updated_at: 'asdasd',
-                image_url: 'http://google.com',
+                image_url: 'https://assets.entrepreneur.com/content/16x9/822/20151117183622-small-business-woman-desk-office.jpeg',
             },
             {
                 title: "My First Doc",
                 description: "ADASDasdasd asd ",
                 file_url: 'http://google.com',
                 updated_at: 'asdasd',
-                image_url: 'http://google.com',
+                image_url: 'https://assets.entrepreneur.com/content/16x9/822/20151117183622-small-business-woman-desk-office.jpeg',
             }
         ];
     }
