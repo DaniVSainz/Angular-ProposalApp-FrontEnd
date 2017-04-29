@@ -15,7 +15,7 @@ const Rx_1 = require("rxjs/Rx");
 let ProposalService = class ProposalService {
     constructor(http) {
         this.http = http;
-        this.proposalsUrl = 'http://localhost:3002/proposals.json';
+        this.proposalsUrl = 'http://localhost:3002/proposals';
     }
     getProposals() {
         return this.http.get(this.proposalsUrl)
