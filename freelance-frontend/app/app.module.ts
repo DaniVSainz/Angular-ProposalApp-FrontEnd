@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
+import { HttpModule } from '@angular/http'
 
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
@@ -17,7 +18,8 @@ import { DocumentService } from './documents/document.service';
 		BrowserModule,
 		AppRoutingModule,
 		FormsModule,
-		NgbModule.forRoot()
+		NgbModule.forRoot(),
+		HttpModule
 	],
 	declarations: [
 		AppComponent,
